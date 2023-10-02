@@ -1,4 +1,5 @@
 p{font-size:20px}
-body{background-color:#D7F7FE; color:#000933}
+body{background-color:#FFE9C7; color:#B36E00, padding: 0}
 main{text-align:center; width:800px; margin:auto}
-nav{background-color:#002FFF; color:#FFFFFF}
+nav{display: flex; background-color:#0088FF; color:#1D364D; margin: 0}
+a{text-decoration: none; color:#1D364D}
