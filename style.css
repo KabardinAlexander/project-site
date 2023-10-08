@@ -3,3 +3,4 @@ body{background-color:##FFF8ED; color:#402700; margin: 0}
 main{text-align:center; width:800px; margin:auto}
 nav{display: flex; background-color:#0088FF; color:#0F1B26; padding: 15px; font-weight: bold}
 a{text-decoration: none; color:#0F1B26; font-size:1.5em}
+ul{text-align:left; font-size:20px}
