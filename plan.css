@@ -6,9 +6,9 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   text-align: left;
-  border: solid black;
+  border: solid black 3px;
 }
-.plan-grid *{ border: solid black;}
+.plan-grid *{ border: solid black 1px; padding: 5px;}
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 .div3 { grid-area: 1 / 3 / 2 / 4; }
