@@ -1,10 +1,14 @@
+.bold{font-weight: 700}
 .plan-grid {
-display: grid;
-grid-template-columns: 1fr 2fr 1fr 3fr 6fr;
-grid-template-rows: repeat(11, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 3fr 6fr;
+  grid-template-rows: repeat(11, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: left;
+  border: solid black;
 }
+.plan-grid *{ border: solid black;}
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 .div3 { grid-area: 1 / 3 / 2 / 4; }
