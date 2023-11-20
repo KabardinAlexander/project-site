@@ -97,7 +97,7 @@
 
 .cplan-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr 2fr 1fr 3fr 6fr;
   grid-template-rows: repeat(19, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
